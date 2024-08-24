@@ -14,14 +14,20 @@ templates/: Contains the HTML templates for the web pages (index.html for upload
 # Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/skin-cancer-detection.git
-cd skin-cancer-detection
+git clone https://github.com/yourusername/skin-cancer-detection.git cd skin-cancer-detection
+
+
 Install the required dependencies:
 
 pip install -r requirements.txt
+
+
 Prepare your dataset:
 
 Ensure your training and testing data are organized in datasets/train and datasets/test directories, respectively. The images should be categorized into subfolders for each class (e.g., 'cancerous' and 'non-cancerous').
+
+
+
 Run the application:
 
 
